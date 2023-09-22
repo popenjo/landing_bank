@@ -50,84 +50,175 @@ body, html {width:auto; height:8194px; overflow-x:auto !important;}
 }
 .top .main .contents .a p {font-size:1.5rem; color:#A2C579;}
 .top .main .contents .a:nth-child(4) p {line-height:1.8rem;}
-.btn {background: #D2DE32; border-top:1px solid #FFFFDD;}
-.btn .btn1 {
-    display:flex; flex-flow:column nowrap; 
+.btn {
+    background: #D2DE32; 
+    border-top:1px solid #FFFFDD;
+    display:flex; flex-flow:column nowrap;
     align-items: center;
-    background:#FFFFDD;
+} 
+.btn .btn1 {
+    width:1536px; margin-top:146px;
+    display:flex; flex-flow:column nowrap; 
+    align-items: center; justify-content: center;
+    background:#fff;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+    border:8px solid #016A70;
+    border-bottom:8px dashed #016A70;
 }
 .btn .btn1 h2 {
     font-family: 'Katuri';
-    font-size:3rem; margin-top:86px; margin-bottom:186px;
+    font-size: 5.5rem; margin-top:86px; margin-bottom:163px;
 }
 .btn .btn1 h2 em {
     font-family: 'Katuri';
-    font-size:3rem; color:#016A70;
+    font-size: 5.5rem; color:#016A70;
 }
 .btn .btn1 > p {
     font-family: 'BMJUA';
-    line-height:2.8rem;
-    font-size:2.2rem;
+    line-height:4.5rem;
+    font-size: 3.5rem;
 }
 .btn .btn1 > p em {
     color: #A2C579;
-    font-size:2.2rem;
+    font-size: 3.5rem;
 }
 .btn .btn1 > p em:last-child {color:#016A70;}
 .btn .btn1 .contents1 {
-    display:flex; flex-flow:column;
+    width:1329px; height:546px;
+    background:#D2DE32;
+    display:flex; flex-flow:row nowrap;
     align-items: center;
-    margin-top:152px; background:#D2DE32;
-    width:1329px; text-align: center;
+    text-align: center;
     border-radius:30px; border:8px solid #016A70;
 }
-.btn .btn1 .contents1 img:nth-child(1) {transform:translateX(610px);}
-.btn .btn1 .contents1 img:nth-child(5) {transform:translate(-610px, 8px);}
+.btn .btn1  img:nth-child(3) {transform:translate(570px, 190px);}
+.btn .btn1  img:nth-child(5) {transform:translate(-570px, -190px);}
 .btn .btn1 .contents1 img {width:100px;}
-.btn .btn1 .contents1 div {
-    font-family: 'BMJUA'; display:flex;
-    align-items: center;
+.btn .btn1 .contents1 > * {
+    width:100%;
+    font-family: 'BMJUA';
 }
 .btn .btn1 .contents1 div span, p {font-size:2.3rem;}
-.btn .btn1 .contents1 .one {}
+.btn .btn1 .contents1 .one {
+    height:100%; width:calc(100% - 20%);
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-right:57px;
+}
 .btn .btn1 .contents1 .one > span {
-    display:inline-block; padding:10px 25px 5px 25px; text-align: center;
-    font-size:2.3rem; background:#FFFFDD; color:#A2C579;
+    width:185px; padding:17px 0;
+    display:inline-block; text-align: center;
+    font-size:2.3rem; background:#FFF; color:#A2C579;
     border-radius:50px;
 }
 .btn .btn1 .contents1 .one > p {
     font-size:2.3rem;
 }
-.btn .btn1 .contents1 .two {}
-.btn .btn1 .contents1 .two > span {
-    background:#FFFFDD; color:#A2C579;
-    border-radius:50px; padding:10px 25px 5px 25px;
+.btn .btn1 .contents1 .two {
+    height:100%; transform:translateX(-200px);
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-around;
 }
-.btn .btn1 .contents1 .two > p {}
-.btn .btn1 .contents1 .three {}
-.btn .btn1 .contents1 .three > span {
-    background:#FFFFDD; color:#A2C579;
-    border-radius:50px; padding:10px 25px 5px 25px;
+.btn .btn1 .contents1 .two > p {
+    font-size: 2.5rem;
+    background:#fff; padding:15px 20px;
+    color:#016A70; border-radius:50px;
 }
-.btn .btn1 .contents1 .three > p {}
 .btn .btn1 .contents1 img {}
-.btn .btn2 {}
-.btn .btn2 h3 {}
-.btn .btn2 h3 em {}
-.btn .content2 {}
-.btn .content2 img {}
-.btn .content2 p {}
-.btn .btn2 img {}
-.btn .btn2 span {}
-.btn .btn2 p {}
-.btn .btn3 {}
-.btn .btn3 h4 {}
-.btn .btn3 h4 em {}
-.btn .btn3 p {}
-.btn .btn3 p span {}
-.btn .btn3 p em {}
-.btn .btn3 .contents3 {}
+.btn .btn2 {
+    width:1536px;
+    background:#fff;
+    border-left:8px solid #016A70;
+    border-right:8px solid #016A70;
+    border-bottom:8px dashed #016A70;
+    font-family: 'BMJUA';
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-around;
+    align-items: center; position: relative;
+}
+.btn .btn2 h3 {margin-top:63px; font-size: 5.5rem;}
+.btn .btn2 h3 em {font-size: 5.5rem; color: #016A70;}
+.btn .btn2 .content2 {position:relative;}
+.btn .content2 img {position:relative; width:597px;}
+.btn .content2 p {
+    font-size: 1.6rem; text-align: center;
+    position:absolute; top:100px; left:210px;
+}
+.btn .content2 p em {
+    font-size: 1.6rem; color: #016A70;
+}
+.btn .content2 p strong {
+    font-size: 1.6rem; color:#D2DE32;
+}
+.btn .btn2 > img:nth-child(3) {
+    width:370px; transform: rotate(-16.03deg);
+    position:absolute; top:107px; left:243px;
+}
+.btn .btn2 > img:nth-child(4) {
+    width:370px; transform: rotate(11.962deg);
+    position:absolute; top:228px; right:241px;
+}
+.btn .btn2 > span {
+    font-size: 1.85rem; padding: 25px 40px;
+    background:#016A70; color:#FFFFDD;
+    border-radius:50px;
+    transform:translateY(-49px);
+}
+.btn .btn2 > .two_contents {
+    text-align: center; font-size: 2.1rem;
+    margin-bottom:84px; line-height:1.8em;
+}
+.btn .btn2 > .two_contents em {
+    font-size: 2.1rem; color: #016A70;
+}
+.btn .btn2 > .two_contents strong {
+    font-size: 3rem; color: #D2DE32;
+}
+.btn .btn2 > .two_contents2 {
+    margin-bottom:59px; font-size:3rem;
+}
+.btn .btn3 {
+    width:1536px; font-family: 'BMJUA';
+    background:#fff;
+    display:flex; flex-flow:column nowrap;
+    align-items: center;
+    border-left:8px solid #016A70;
+    border-right:8px solid #016A70;
+    border-bottom:8px solid #016A70;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+}
+.btn .btn3 h4 {font-size: 5.5rem; margin-top:64px;}
+.btn .btn3 h4 em {font-size: 5.5rem; color:#016A70;}
+.btn .btn3 > p {font-size: 3rem; margin-top:46px;}
+.btn .btn3 > p > span {font-size: 3rem; color: #D2DE32;}
+.btn .btn3 > p > em {font-size: 3rem; color: #016A70;}
+.btn .btn3 .contents3 {
+    display:flex; flex-flow:column nowrap;
+    align-items:center;
+    width:817px; height:600px; 
+    background:#FFFFDD; 
+    border-radius:50px; border:3px solid #016A70;
+}
 .btn .btn3 .contents3 .money {}
-.btn .btn3 .contents3 .dollar {}
+.btn .btn3 .contents3 .dollar {
+    height:100%;
+    display:flex; flex-flow:column nowrap;
+    align-items: center; justify-content:space-evenly;
+}
 .btn .btn3 .contents3 .dollar img {}
+.btn .btn3 .contents3 .dollar img:nth-child(1) {
+    width:100px; height:100px; transform:translateY(-50px);
+}
+.btn .btn3 .contents3 .dollar .dollar2 img:nth-child(1) {
+    width:100px; height:100px;
+}
+.btn .btn3 .contents3 .dollar .dollar2 img:nth-child(2) {
+    width:200px;
+}
+.btn .btn3 .contents3 .dollar .dollar2 img:nth-child(3) {
+    width:100px; height:100px; transform: scaleX(-1);
+}
 .btn .shortcut {}
