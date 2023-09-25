@@ -1,5 +1,5 @@
-body, html {width:auto; height:8194px; overflow-x:auto !important;}
-.top {width:1920px;}
+body, html {width:auto; overflow-x:auto !important;}
+.top {}
 .top .line {width:100%; height:136px; background:#A2C579;}
 .top .main {
     display:flex; flex-flow:column nowrap;
@@ -197,23 +197,42 @@ body, html {width:auto; height:8194px; overflow-x:auto !important;}
 .btn .btn3 > p > em {font-size: 3rem; color: #016A70;}
 .btn .btn3 .contents3 {
     display:flex; flex-flow:column nowrap;
-    align-items:center;
+    align-items:center; 
+    margin-top:74px; margin-bottom:196px;
     width:817px; height:600px; 
     background:#FFFFDD; 
     border-radius:50px; border:3px solid #016A70;
 }
-.btn .btn3 .contents3 .money {}
+.btn .btn3 .contents3 .money {
+    display:inline-block;
+    color:#fff;
+    border-radius:50px;
+    background: #016A70;
+    padding:15px 25px;
+}
+.btn .btn3 .contents3 .money_all .money:nth-child(1) {
+    font-size:2.5rem; transform:translate(70px, 72px);
+}
+.btn .btn3 .contents3 .money:nth-child(2) {
+    font-size:2.3rem; transform:translate(-197px, 217px);
+}
+.btn .btn3 .contents3 .money:nth-child(3) {
+    font-size: 2rem; transform:translate(93px ,226px);
+}
+.btn .btn3 .contents3 .money:nth-child(4) {
+    font-size: 1.7rem; transform:translate(59px, 345px);
+}
 .btn .btn3 .contents3 .dollar {
     height:100%;
     display:flex; flex-flow:column nowrap;
     align-items: center; justify-content:space-evenly;
 }
 .btn .btn3 .contents3 .dollar img {}
-.btn .btn3 .contents3 .dollar img:nth-child(1) {
-    width:100px; height:100px; transform:translateY(-50px);
+.btn .btn3 .contents3 .dollar > img:nth-child(1) {
+    width:100px; height:100px; transform:translateY(50px);
 }
 .btn .btn3 .contents3 .dollar .dollar2 img:nth-child(1) {
-    width:100px; height:100px;
+    width:100px; height:100px; transform:translateY(-50px);
 }
 .btn .btn3 .contents3 .dollar .dollar2 img:nth-child(2) {
     width:200px;
@@ -221,4 +240,13 @@ body, html {width:auto; height:8194px; overflow-x:auto !important;}
 .btn .btn3 .contents3 .dollar .dollar2 img:nth-child(3) {
     width:100px; height:100px; transform: scaleX(-1);
 }
-.btn .shortcut {}
+.btn .shortcut {
+    margin-top:135px; margin-bottom:141px;
+    font-family: 'BMJUA'; font-size:3rem;
+    color:#FFFFDD; background:#016A70;
+    border-radius:50px; border:5px solid #FFFFDD;
+    padding:25px 107px;
+}
+.btn .line {
+    width:100%; height:136px; background:#A2C579;
+}
